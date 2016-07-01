@@ -1,0 +1,26 @@
+{
+  "name": "wd-type-parser",
+  "version": "0.0.1",
+  "description": "Given a value object as returned from Wikidata Query Service, returns a simplified value",
+  "main": "src/wikidataTypeParser.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nyurik/wd-type-parser.git"
+  },
+  "keywords": [
+    "wikidata",
+    "sparql",
+    "wdqs",
+    "parser",
+    "xmlschema"
+  ],
+  "author": "Yuri Astrakhan <yurik@wikimedia.org>",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/nyurik/wd-type-parser/issues"
+}
