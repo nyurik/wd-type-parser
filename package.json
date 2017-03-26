@@ -4,12 +4,10 @@
   "description": "Given a value object as returned from Wikidata Query Service, returns a simplified value",
   "main": "src/wikidataTypeParser.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "preversion": "npm test"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nyurik/wd-type-parser.git"
-  },
+  "repository": "nyurik/wd-type-parser",
   "keywords": [
     "wikidata",
     "sparql",
@@ -17,10 +15,11 @@
     "parser",
     "xmlschema"
   ],
-  "author": "Yuri Astrakhan <yurik@wikimedia.org>",
-  "devDependencies": {
-    "mocha": "^2.4.5"
-  },
+  "author": "Yuri Astrakhan <YuriAstrakhan@gmail.com>",
   "license": "MIT",
-  "bugs": "https://github.com/nyurik/wd-type-parser/issues"
+  "bugs": "https://github.com/nyurik/wd-type-parser/issues",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
 }

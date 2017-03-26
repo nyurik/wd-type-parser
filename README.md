@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nyurik/wd-type-parser.svg?branch=master)](https://travis-ci.org/nyurik/wd-type-parser)
+
 # wd-type-parser
 Given a value object as returned from Wikidata Query Service, returns a simplified value
 
