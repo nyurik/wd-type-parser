@@ -1,6 +1,6 @@
 {
   "name": "wd-type-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Given a value object as returned from Wikidata Query Service, returns a simplified value",
   "main": "src/wikidataTypeParser.js",
   "scripts": {
